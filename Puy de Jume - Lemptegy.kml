@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Puy de Jume - Lemptegy]]></name>
+    <description><![CDATA[Fichier créé en ligne avec le convertisseur GPX2KML de gpstraces.net]]></description>
+    <Style id="rouge">
+      <LineStyle>
+        <color>961400FF</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="violet">
+      <LineStyle>
+        <color>FFEE58FF</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="depart">
+      <IconStyle x="64" y="128" xunits="pixels" yunits="insetPixels">
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2161&amp;scale=4</href>
+        </Icon>
+        <hotSpot/>
+      </IconStyle>
+    </Style>
+    <Style id="fin">
+      <IconStyle x="64" y="128" xunits="pixels" yunits="insetPixels">
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/earth/rpc/cc/icon?color=d32f2f&amp;id=2005&amp;scale=4</href>
+        </Icon>
+        <hotSpot/>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>Trace (rouge)</name>
+      <open>1</open>
+      <Placemark>
+        <visibility>1</visibility>
+        <open>1</open>
+        <styleUrl>#rouge</styleUrl>
+        <name><![CDATA[De Saint-Ours à Les Roches]]></name>
+        <description><![CDATA[Cliquer sur l'onglet 3D dans Google Earth pour passer en mode 3D]]></description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>2.963963,45.851675,1020.479591 2.964035,45.851638,1020.479591 2.963173,45.850951,1019.821447 2.962058,45.850427,1011.642462 2.961800,45.850242,1009.390858 2.961631,45.849985,1006.923073 2.960683,45.849140,999.005911 2.960449,45.848944,997.226091 2.955779,45.847975,982.267318 2.954798,45.847554,979.887687 2.953240,45.846683,976.305620 2.952404,45.846353,974.320292 2.951672,45.846178,971.884419 2.951286,45.846174,970.669354 2.950696,45.846067,968.750429 2.949554,45.845717,964.476662 2.949212,45.845536,962.893066 2.948697,45.845337,960.721694 2.948484,45.845225,959.737742 2.947847,45.845038,957.226202 2.947652,45.845004,956.684737 2.947082,45.844991,955.148535 2.946747,45.845017,954.240579 2.946432,45.845009,953.391516 2.945941,45.844954,952.051944 2.945609,45.844956,951.157619 2.944778,45.844886,949.661093 2.944156,45.844764,948.818928 2.943649,45.844784,948.157103 2.942970,45.844703,947.259289 2.942689,45.844656,946.941529 2.940348,45.844119,945.253859 2.940052,45.844031,945.119221 2.939342,45.843819,944.811271 2.939427,45.843674,944.721640 2.940230,45.842705,944.218398 2.940744,45.841984,944.250879 2.941508,45.841106,944.914554 2.941925,45.840504,946.561037 2.942069,45.840175,947.408271 2.942251,45.839487,949.224560 2.942618,45.839114,950.585798 2.942986,45.838941,951.516794 2.943778,45.838372,953.902626 2.944117,45.838228,954.122674 2.944305,45.838061,954.118605 2.945137,45.836858,954.093004 2.945492,45.836345,954.460335 2.945741,45.835576,955.017889 2.945819,45.835097,955.358841 2.945870,45.834436,956.865877 2.945814,45.833295,959.485723 2.946000,45.832561,961.730687 2.945278,45.830233,969.328957 2.945075,45.828557,975.240422 2.944582,45.827203,980.213653 2.944426,45.826797,981.701861 2.944406,45.826616,982.344645 2.944431,45.826356,983.267321 2.944617,45.825475,985.188589 2.944732,45.824898,986.309213 2.945409,45.823390,986.461457 2.946349,45.822140,986.029887 2.947358,45.821062,986.029887 2.947860,45.820616,986.029887 </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <styleUrl>#depart</styleUrl>
+        <name>DÉPART#1</name>
+        <Point>
+          <coordinates>2.963963,45.851675</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <styleUrl>#fin</styleUrl>
+        <name>ARRIVÉE#1</name>
+        <Point>
+          <coordinates>2.947860,45.820616</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
+			
